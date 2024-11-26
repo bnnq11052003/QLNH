@@ -1,0 +1,63 @@
+﻿@{
+    var data = ViewBag.ban;
+}
+<style>
+    h3 {
+        margin-top: 40px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+        display: flex; /* Bật chế độ flexbox cho card */
+        align-items: center; /* Căn chỉnh nội dung theo chiều dọc */
+        justify-content: center; /* Căn chỉnh nội dung theo chiều ngang */
+    }
+
+    .card-actions { /* Lớp CSS cho phần tử chứa 2 thẻ a */
+        display: flex;
+        justify-content: space-between; /* Căn chỉnh 2 thẻ a cách đều nhau */
+        width: 60%; /* Chiếm toàn bộ chiều rộng của thẻ cha */
+        height: 7vh;
+    }
+
+    .fa-money-check-alt, .fa-info-circle {
+        font-size: 30px;
+        /* margin-top: 20px; */
+        margin-bottom: 20px;
+    }
+
+    .center-image {
+        margin: auto; /* This centers the image horizontally */
+        display: block; /* This prevents extra space below the image */
+    }
+</style>
+
+
+<div class="container">
+    @foreach (var ban in data)
+    {
+        <div class="card">
+            <h3>@ban.TableName</h3>
+            @if (ban.Status == "Trống")
+            {
+                <img src="/assets/img/trong.png" class=" center-image" />
+            }
+            else
+            {
+                <img src="/assets/img/conguoi.png" class=" center-image" />
+            }
+            <div class="card-actions">
+                <a href="/oder/ThanhToan?TableName=@ban.TableName" title="Thanh toán"><i class="fas fa-money-check-alt"></i></a>
+                <a href="/oder/detail?TableName=@ban.TableName&dmduocchon=Đồ Uống" title="Đặt món"><i class="fas fa-info-circle"></i></a>
+            </div>
+        </div>
+    }
+
+</div>

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<QLNHxMVC.Models.TbDstable>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="text-align:center">Danh sách bàn</h1>
+
+<p>
+    <a style="margin-left: 20px" class="btn btn-primary" asp-action="Create">Thêm bàn mới</a>
+</p>
+<table  class="table">
+    <thead>
+        <tr>
+            <th>Tên bàn</th>
+            <th>Trạng thái</th>
+            @* <th></th> *@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TableName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @if (item.Status == "Trống")
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.TableId" class="btn btn-primary">Đặt bàn</a>
+                    }
+                    else
+                    {
+                        <button class="btn btn-secondary" disabled>Đặt bàn</button>
+                    }
+                    @* <a asp-action="Edit" asp-route-id="@item.TableId">Đặt bàn</a> *@ |
+                    @* <a asp-action="Details" asp-route-id="@item.TableId">Details</a> | *@
+                    <a asp-action="Delete" asp-route-id="@item.TableId">Xóa bàn</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

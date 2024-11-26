@@ -1,0 +1,687 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\revenu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\revenu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\controllers\\revenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\controllers\\revenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\revenu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\revenu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\oder\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\oder\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\oder\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\oder\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\thucdon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\thucdon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\controllers\\odercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\controllers\\odercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\oder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\oder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\danhmuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\danhmuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\qltk\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\qltk\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\dsban\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\dsban\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\dsban\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\dsban\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\models\\tbbilldetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\models\\tbbilldetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\models\\tbdstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\models\\tbdstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\models\\latmvcqlnhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\models\\latmvcqlnhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\controllers\\qltkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\controllers\\qltkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\thucdon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\thucdon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\qltk\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\qltk\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_5RGHKJ2R_SQLEXPRESS01/LAT_MvcQLNH/True/SqlTable/dbo.tbFood.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\models\\tbfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\models\\tbfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\controllers\\thucdoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\controllers\\thucdoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\danhmuc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\danhmuc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\danhmuc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\danhmuc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\danhmuc\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\danhmuc\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\thucdon\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\thucdon\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\thucdon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\thucdon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\qlnhxmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\qlnhxmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\controllers\\dsbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\controllers\\dsbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\qltk\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\qltk\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\qltk\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\qltk\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\qltk\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\qltk\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\qltk\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\qltk\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\models\\tbbillhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\models\\tbbillhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\models\\tbaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\models\\tbaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|e:\\n3_k2\\.net\\qlnhgr10\\mergeqlnhnew\\qlnhxmvc\\qlnhxmvc\\views\\qltk\\detaillogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B25EA089-D733-4AEE-972B-E9628666C8DB}|QLNHxMVC\\QLNHxMVC.csproj|solutionrelative:qlnhxmvc\\views\\qltk\\detaillogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAANoAAAAAAAAAAAAQwO8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T17:11:33.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "bill.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Oder\\bill.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\Oder\\bill.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Oder\\bill.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\Oder\\bill.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwCIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:06:25.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DanhMuc\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\DanhMuc\\Delete.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DanhMuc\\Delete.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\DanhMuc\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:03:37.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\QLTK\\Index.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\Index.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\QLTK\\Index.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T10:04:18.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DanhMuc\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\DanhMuc\\Index.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DanhMuc\\Index.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\DanhMuc\\Index.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAD4v04AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:03:46.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T08:28:24.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Revenu\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\Revenu\\Index.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Revenu\\Index.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\Revenu\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T16:20:00.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RevenuController.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\RevenuController.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Controllers\\RevenuController.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\RevenuController.cs",
+              "RelativeToolTip": "QLNHxMVC\\Controllers\\RevenuController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:18:27.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QLNHxMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T17:10:54.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Revenu\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\Revenu\\Edit.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Revenu\\Edit.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\Revenu\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T16:21:09.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\ThucDon\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\ThucDon\\Index.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\ThucDon\\Index.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\ThucDon\\Index.cshtml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAIwE0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:03:30.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OderController.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\OderController.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Controllers\\OderController.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\OderController.cs",
+              "RelativeToolTip": "QLNHxMVC\\Controllers\\OderController.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAIwJkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:02:47.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "detail.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Oder\\detail.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\Oder\\detail.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Oder\\detail.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\Oder\\detail.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:05:27.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Program.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Program.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Program.cs",
+              "RelativeToolTip": "QLNHxMVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:55:29.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Oder\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\Oder\\Index.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\Oder\\Index.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\Oder\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:04:40.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DsBan\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\DsBan\\Index.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DsBan\\Index.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\DsBan\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T05:00:00.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TbBillDetail.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\TbBillDetail.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Models\\TbBillDetail.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\TbBillDetail.cs",
+              "RelativeToolTip": "QLNHxMVC\\Models\\TbBillDetail.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:01:10.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DsBan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\DsBan\\Edit.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DsBan\\Edit.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\DsBan\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:16:31.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TbDstable.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\TbDstable.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Models\\TbDstable.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\TbDstable.cs",
+              "RelativeToolTip": "QLNHxMVC\\Models\\TbDstable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:03:38.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DanhMuc\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\DanhMuc\\Create.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DanhMuc\\Create.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\DanhMuc\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:03:34.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\ThucDon\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\ThucDon\\Edit.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\ThucDon\\Edit.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\ThucDon\\Edit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:03:27.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\QLTK\\Delete.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\Delete.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\QLTK\\Delete.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:41:49.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LatMvcQlnhContext.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\LatMvcQlnhContext.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Models\\LatMvcQlnhContext.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\LatMvcQlnhContext.cs",
+              "RelativeToolTip": "QLNHxMVC\\Models\\LatMvcQlnhContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:17:37.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QLTKController.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\QLTKController.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Controllers\\QLTKController.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\QLTKController.cs",
+              "RelativeToolTip": "QLNHxMVC\\Controllers\\QLTKController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAIwJ0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:38:59.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "dbo.tbFood [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_5RGHKJ2R_SQLEXPRESS01/LAT_MvcQLNH/True/SqlTable/dbo.tbFood.sql",
+              "ToolTip": "dbo.tbFood [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-12T13:13:55.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DanhMuc\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\DanhMuc\\Details.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\DanhMuc\\Details.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\DanhMuc\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:03:42.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TbFood.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\TbFood.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Models\\TbFood.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\TbFood.cs",
+              "RelativeToolTip": "QLNHxMVC\\Models\\TbFood.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:10:27.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ThucDonController.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\ThucDonController.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Controllers\\ThucDonController.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\ThucDonController.cs",
+              "RelativeToolTip": "QLNHxMVC\\Controllers\\ThucDonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:41:43.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\ThucDon\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\ThucDon\\Delete.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\ThucDon\\Delete.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\ThucDon\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:03:24.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\ThucDon\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\ThucDon\\Create.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\ThucDon\\Create.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\ThucDon\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:03:20.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DanhMucController.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\DanhMucController.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Controllers\\DanhMucController.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\DanhMucController.cs",
+              "RelativeToolTip": "QLNHxMVC\\Controllers\\DanhMucController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:40:06.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "QLNHxMVC.csproj",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\QLNHxMVC.csproj",
+              "RelativeDocumentMoniker": "QLNHxMVC\\QLNHxMVC.csproj",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\QLNHxMVC.csproj",
+              "RelativeToolTip": "QLNHxMVC\\QLNHxMVC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-12T12:51:46.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DsBanController.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\DsBanController.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Controllers\\DsBanController.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\DsBanController.cs",
+              "RelativeToolTip": "QLNHxMVC\\Controllers\\DsBanController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:41:06.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\QLTK\\Details.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\Details.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\QLTK\\Details.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwFgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T12:31:04.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\QLTK\\Edit.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\Edit.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\QLTK\\Edit.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T11:52:15.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\QLTK\\ChangePassword.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\ChangePassword.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\QLTK\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T14:19:12.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\QLTK\\Create.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\Create.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\QLTK\\Create.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAABBwGUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T03:52:15.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TbAccount.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\TbAccount.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Models\\TbAccount.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\TbAccount.cs",
+              "RelativeToolTip": "QLNHxMVC\\Models\\TbAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:04:37.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Controllers\\LoginController.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "QLNHxMVC\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwCMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T15:31:58.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TbBillHistory.cs",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\TbBillHistory.cs",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Models\\TbBillHistory.cs",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Models\\TbBillHistory.cs",
+              "RelativeToolTip": "QLNHxMVC\\Models\\TbBillHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T15:36:52.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DetailLogin.cshtml",
+              "DocumentMoniker": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\DetailLogin.cshtml",
+              "RelativeDocumentMoniker": "QLNHxMVC\\Views\\QLTK\\DetailLogin.cshtml",
+              "ToolTip": "E:\\n3_k2\\.NET\\QLNHgr10\\mergeQLNHnew\\QLNHxMVC\\QLNHxMVC\\Views\\QLTK\\DetailLogin.cshtml",
+              "RelativeToolTip": "QLNHxMVC\\Views\\QLTK\\DetailLogin.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAABBwGQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T12:32:11.671Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

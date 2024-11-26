@@ -1,0 +1,79 @@
+﻿@model QLNHxMVC.Models.TbFood
+
+@{
+    ViewBag.Title = "Chỉnh sửa sản phẩm";
+    var doanhmuc = ViewBag.dm;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .create-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh; /* Chiều cao của trang */
+    }
+
+    .create-content {
+        max-width: 400px;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+
+        .create-content h1 {
+            margin-bottom: 20px;
+        }
+
+        .create-content .form-group {
+            margin-bottom: 15px;
+        }
+
+        .create-content .actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .create-content .actions a {
+                margin: 0 10px;
+            }
+</style>
+
+
+<div class="create-container">
+    <div class="create-content">
+        <h1>Chỉnh sửa món ăn </h1>
+        <form asp-action="Edit" method="post"> 
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="FoodId" /> <!-- Thêm trường ẩn để lưu FoodId -->
+            <div class="form-group">
+                <label asp-for="FoodName" class="control-label">Tên món ăn</label>
+                <input asp-for="FoodName" class="form-control" required/>
+                <span asp-validation-for="FoodName" class="text-danger"></span>
+
+                <label asp-for="Price" class="control-label">Giá</label>
+                <input asp-for="Price" class="form-control" required />
+                <span asp-validation-for="Price" class="text-danger"></span>
+
+                <label asp-for="DmfoodId" class="control-label">Doanh mục thức ăn</label>
+                <select asp-for="DmfoodId" class="form-select">
+                    @foreach (var danhmuc in doanhmuc)
+                    {
+                        <option value="@danhmuc.DmfoodId">@danhmuc.CategoryName</option>
+                    }
+                </select>
+                <span asp-validation-for="DmfoodId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+            <div class="form-group">
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

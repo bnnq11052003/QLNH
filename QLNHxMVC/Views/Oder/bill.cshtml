@@ -1,0 +1,53 @@
+﻿@{
+    var bill = ViewBag.bill;
+    var tongtien = ViewBag.price;
+    int i = 1;
+    var day = ViewBag.date;
+    var ban = ViewBag.ban;
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên món ăn</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Tổng tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var data in bill)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@data.FoodName</td>
+                            <td>@data.Price</td>
+                            <td>@data.Quantity</td>
+                            <td>@data.TotalAmount</td>
+                        </tr>
+                        i++;
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label>Ngày:</label>
+                        <div>@day</div>
+                    </div>
+                    <div class="form-group">
+                        <label>Tổng bill:</label>
+                        <div>@tongtien</div>
+                    </div>
+                    <a href="/oder/xacnhanthanhtoan?TableName=@ban" class="btn btn-primary">Xác nhận</a>
+                    <a href="javascript:window.history.back()" class="btn btn-primary">Quay lại</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

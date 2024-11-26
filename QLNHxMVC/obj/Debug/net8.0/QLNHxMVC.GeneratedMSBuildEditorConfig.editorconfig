@@ -1,0 +1,171 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QLNHxMVC
+build_property.RootNamespace = QLNHxMVC
+build_property.ProjectDir = E:\n3_k2\.NET\QLNHgr10\mergeQLNHnew\QLNHxMVC\QLNHxMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\n3_k2\.NET\QLNHgr10\mergeQLNHnew\QLNHxMVC\QLNHxMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/DanhMuc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaE11Y1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/DanhMuc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaE11Y1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/DanhMuc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaE11Y1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/DanhMuc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaE11Y1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/DsBan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHNCYW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/DsBan/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHNCYW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/DsBan/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHNCYW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/DsBan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHNCYW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/DsBan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHNCYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Login/IndexLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXhMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Oder/bill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RlclxiaWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Oder/detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RlclxkZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Oder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/QLTK/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUS1xDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/QLTK/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUS1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/QLTK/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUS1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/QLTK/DetailLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUS1xEZXRhaWxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/QLTK/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUS1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/QLTK/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUS1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/QLTK/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUS1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Revenu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Revenu/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Revenu/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Revenu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Revenu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/ThucDon/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGh1Y0RvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/ThucDon/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGh1Y0RvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/ThucDon/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGh1Y0RvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/ThucDon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGh1Y0RvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/n3_k2/.NET/QLNHgr10/mergeQLNHnew/QLNHxMVC/QLNHxMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-46tlc0yrr1

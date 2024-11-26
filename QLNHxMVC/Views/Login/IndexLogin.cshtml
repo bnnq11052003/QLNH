@@ -1,0 +1,102 @@
+﻿@using QLNHxMVC.Models
+
+@{
+    Layout = null;
+}
+@model TbAccount
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quản Lý Nhà Hàng 8dot</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="../btLogin2/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="../btLogin2/css/style.css">
+    <style>
+        .alert {
+            position: relative;
+            padding: 0.75rem 1.25rem;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: 0.35rem;
+        }
+
+        .alert-danger {
+            color: #78261f;
+            background-color: #fadbd8;
+            border-color: #f8ccc8;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sing in  Form -->
+        <section class="sign-in">
+            <div class="container">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <figure><img src="../btLogin2/images/logoQLNHmvc.jpg" alt="sing up image"></figure>
+
+                    </div>
+
+
+                    <div class="signin-form">
+                        <h2 class="form-title">Đăng Nhập</h2>
+                        @if (ViewBag.Message != null)
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                @ViewBag.Message
+                            </div>
+                        }
+                        @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+                        {
+                            <form method="POST" class="register-form" id="login-form">
+                                <div class="form-group">
+                                    @Html.TextBoxFor(x => x.Username, new { placeholder = "User Name", required = "required", autofocus = "autofocus" })
+                                    <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                    @* <input type="text" name="your_name" id="your_name" placeholder="Your Name" /> *@
+                                </div>
+                                <div class="form-group">
+                                    <span class="btn-show-pass">
+                                        @* <i class="zmdi zmdi-eye"></i> *@
+                                    </span>
+                                    @Html.TextBoxFor(x => x.Password, new { type = "password", placeholder = "Password" })
+                                    <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                    
+                                    @* <input type="password" name="your_pass" id="your_pass" placeholder="Password" /> *@
+                                </div>
+@*                                 <div class="form-group">
+                                    <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                                    <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
+                                </div> *@
+                                <div class="form-group form-button">
+                                    <button class="form-submit" type="submit"> Login </button>
+
+                                    @* <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" /> *@
+                                </div>
+                            </form>
+                        }
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="../btLogin2/vendor/jquery/jquery.min.js"></script>
+    <script src="../btLogin2/js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

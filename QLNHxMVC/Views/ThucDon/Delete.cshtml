@@ -1,0 +1,86 @@
+﻿@model QLNHxMVC.Models.TbFood
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    
+    .create-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh; /* Chiều cao của trang */
+    }
+
+    .create-content {
+        max-width: 400px;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+
+        .create-content h1 {
+            margin-bottom: 20px;
+            text-align: center; /* Canh lề giữa */
+        }
+
+        .create-content .form-group {
+            margin-bottom: 15px;
+        }
+
+        .create-content .actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .create-content .actions a {
+                margin: 0 10px;
+            }
+
+    .form-control[readonly] {
+        background-color: #eee; /* Màu nền xám cho các input chỉ đọc */
+    }
+
+    .btn-danger {
+        background-color: #dc3545; /* Màu nền đỏ cho nút xóa */
+        border-color: #dc3545; /* Màu viền đỏ cho nút xóa */
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333; /* Màu nền đỏ nhạt khi di chuột qua */
+            border-color: #bd2130; /* Màu viền đỏ nhạt khi di chuột qua */
+        }
+
+        .btn-danger:focus {
+            box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); /* Hiệu ứng focus cho nút xóa */
+        }
+
+</style>
+<div class="create-container">
+    <div class="create-content">
+        <h1 >Xóa món ăn</h1>
+
+        <h3>Bạn có đồng ý xóa hay không ? </h3>
+        <div>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="DmfoodId" />
+                <div class="form-group">
+                    <label asp-for="FoodName" class="control-label">Tên món ăn</label>
+                    <input asp-for="FoodName" class="form-control" readonly/>
+                    <span asp-validation-for="FoodName" class="text-danger"></span>
+
+                    <label asp-for="Price" class="control-label">Giá</label>
+                    <input asp-for="Price" class="form-control" readonly />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <input type="submit" value="Delete" class="btn btn-danger" /> 
+                <a asp-action="Index">Back to List</a>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,153 @@
+﻿@model QLNHxMVC.Models.TbFood
+
+@{
+    ViewBag.Title = "Tạo mới sản phẩm";
+    var doanhmuc = ViewBag.dm;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@* <style>
+    /* CSS styles */
+    .dialog {
+        display: block;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .dialog-content {
+        background-color: #fefefe;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border: 1px solid #888;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+        .close:hover {
+            color: black;
+            text-decoration: none;
+        }
+</style> *@
+<style>
+    .create-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh; /* Chiều cao của trang */
+    }
+
+    .create-content {
+        max-width: 400px;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+
+        .create-content h1 {
+            margin-bottom: 20px;
+        }
+
+        .create-content .form-group {
+            margin-bottom: 15px;
+        }
+
+        .create-content .actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .create-content .actions a {
+                margin: 0 10px;
+            }
+</style>
+<div id="formDialog" class="create-container">
+    <div class="create-content">
+                
+                <h2>Thêm mới thực đơn</h2>
+                <form asp-action="Create" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="FoodName" class="control-label">Tên món ăn</label>
+                        <input asp-for="FoodName" class="form-control" />
+                        <span asp-validation-for="FoodName" class="text-danger"></span>
+                        <p></p>
+                        <label asp-for="Price" class="control-label">Giá </label>
+                        <input asp-for="Price" class="form-control" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+
+                        <label asp-for="DmfoodId" class="control-label">Doanh mục thức ăn</label>
+                        <select asp-for="DmfoodId" class="form-select">
+                            <option value="">Chọn danh mục</option>
+                            @foreach (var danhmuc in doanhmuc)
+                            {
+                                <option value="@danhmuc.DmfoodId">@danhmuc.CategoryName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="DmfoodId" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                    </div>
+               
+                </form>
+        <a asp-action="Index">Quay lại danh sách</a>
+            </div>
+        </div>
+ 
+@* <h1>Tạo mới sản phẩm</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FoodName" class="control-label"></label>
+                <input asp-for="FoodName" class="form-control"  required/>
+                <span asp-validation-for="FoodName" class="text-danger"></span>
+
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" required />
+                <span asp-validation-for="Price" class="text-danger"></span>
+
+                <label asp-for="DmfoodId" class="control-label">Doanh mục thức ăn</label>
+                <select asp-for="DmfoodId" class="form-select">
+                    <option value="" required>Chọn danh mục</option>
+                    @foreach (var danhmuc in doanhmuc)
+                    {
+                        <option value="@danhmuc.DmfoodId">@danhmuc.CategoryName </option >
+                    }
+                </select>
+                <span asp-validation-for="DmfoodId" class="text-danger"></span>
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Quay lại danh sách</a>
+</div>
+ *@

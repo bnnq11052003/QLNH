@@ -1,0 +1,106 @@
+﻿@{
+    var dmf = ViewBag.Dmfoods;
+    var ban = ViewBag.Ban;
+    var food = ViewBag.Food;
+    var dmdc = ViewBag.dmdc;
+    var today = ViewBag.date;
+    var billin4 = ViewBag.in4billl;
+    var i = 1;
+    var dmduocchon = ViewBag.dmduochon;
+    var namekhach = ViewBag.name;
+
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form id="myForm" method="post" asp-action="Detailinsert">
+                <div class="form-group">
+                    <label for="TableName">Tên bàn: @ban</label>
+                    <input type="hidden" name="TableName" value="@ban" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="dmduocchon">Danh mục</label>
+                    <select name="dmduocchon" onchange="window.location.href = '/oder/detail?TableName=@ban&dmduocchon=' + this.value;" class="form-control">
+                        @foreach (var data in dmf)
+                        {
+                            <option selected="@(dmdc == @data.CategoryName)" value="@data.CategoryName">@data.CategoryName</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="thucanduocchon">Tên món</label>
+                    <select name="thucanduocchon" id="thucanduocchon" class="form-control">
+                        @foreach (var data in food)
+                        {
+                            <option value="@data.FoodName">@data.FoodName</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="soluong">Số lượng</label>
+                    <input type="number" name="soluong" class="form-control" required />
+                </div>
+                <div class="form-group">
+                    <label for="date">Ngày đặt món</label>
+                    <input type="text" name="date" value="@today" readonly class="form-control" />
+                </div>
+                @if (namekhach == null)
+                {
+                    <div class="form-group">
+                        <label for="name">Tên khách hàng</label>
+                        <input type="text" name="name" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="sdtt">Số điện thoại</label>
+                        <input type="text" name="sdtt" class="form-control" pattern="[0-9]*" />
+                    </div>
+                }
+                else
+                {
+                    <div class="form-group">
+                        <label for="name">Tên khách hàng</label>
+                        <input type="text" name="name" value="@namekhach.CustomerName" readonly class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="sdtt">Số điện thoại</label>
+                        <input type="text" name="sdtt" value="@namekhach.Sdt" readonly class="form-control" pattern="[0-9]*" />
+                    </div>
+                }
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Đặt món</button>
+                    @if (namekhach==null)
+                    {
+                        <a class="btn btn-primary" href="#">Thanh toán</a>
+                    }
+                    else{
+                    <a class="btn btn-primary" href="/oder/ThanhToan?TableName=@ban">Thanh toán</a>
+                    }
+                    <a asp-controller="oder" asp-action="index" class="btn btn-primary">Quay lại</a>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Foodid</th>
+                        <th>Số lượng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var data in billin4)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@data.FoodName</td>
+                            <td>@data.Quantity</td>
+                        </tr>
+                        i++;
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

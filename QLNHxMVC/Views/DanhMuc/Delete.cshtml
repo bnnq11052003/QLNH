@@ -1,0 +1,97 @@
+﻿@model QLNHxMVC.Models.TbDmfood
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .create-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh; /* Chiều cao của trang */
+    }
+
+    .create-content {
+        max-width: 400px;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+
+        .create-content h1 {
+            margin-bottom: 20px;
+        }
+
+        .create-content .form-group {
+            margin-bottom: 15px;
+        }
+
+        .create-content .actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .create-content .actions a {
+                margin: 0 10px;
+            }
+
+</style>
+<div class="create-container">
+    <div class="create-content">
+        <h1>Xóa doanh mục</h1>
+
+        <h3>Bạn có đồng ý xóa hay không ? </h3>
+        <div>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="DmfoodId" />
+                <div class="form-group">
+                    <label asp-for="CategoryName" class="control-label">Tên món ăn</label>
+                    <input asp-for="CategoryName" class="form-control" readonly />
+                    <span asp-validation-for="CategoryName" class="text-danger"></span>
+
+                </div>
+                <input type="submit" value="Delete" class="btn btn-danger" />
+                <a asp-action="Index">Back to List</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@* <h1>Xóa Doanh Mục</h1>
+
+<h5>Bạn có đồng ý chấp nhận xóa không ?</h5>
+<table class="table table-striped table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Category Name
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CategoryName)
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="DmfoodId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> 
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+ *@

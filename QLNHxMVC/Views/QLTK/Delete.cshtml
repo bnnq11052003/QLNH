@@ -1,0 +1,63 @@
+﻿@model QLNHxMVC.Models.TbUserInfo
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Xóa nhân sự</h1>
+
+<p style="color: orangered">Xác nhận muốn xóa nhân sự này </p>
+<div>
+
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Họ vè tên:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FullName)
+        </dd>
+        <dt class="col-sm-2">
+            Ngày sinh:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BirthDay)
+        </dd>
+        <dt class="col-sm-2">
+            Giới tính:
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                var sex = Model.Sex == 1 ? "Nam" : "Nữ";
+            }
+            @sex
+        </dd>
+        <dt class="col-sm-2">
+            Email:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            Số diện thoại:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt class="col-sm-2">
+            Chức vụ:
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                var accountType = Model.Account.AccountType == "1" ? "Nhân viên" : "Quản lý";
+            }
+            @accountType
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="UserInfoId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

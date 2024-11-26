@@ -1,0 +1,186 @@
+﻿@model IEnumerable<QLNHxMVC.Models.TbUserInfo>
+
+@{
+    ViewData["Title"] = "Index";
+    var ds = ViewBag.DsNV as IEnumerable<dynamic>;
+}
+
+
+
+<h1 style="text-align:center">Danh sách nhân sự</h1>
+
+<p>
+    <a style="margin-left: 20px" class="btn btn-primary" asp-action="Create">Thêm tài khoản mới</a>
+</p> 
+
+@* <p>
+    <!-- Nút "Thêm tài khoản mới" để hiển thị modal -->
+    <button style="margin-left: 20px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#createModal">
+        Thêm tài khoản mới
+    </button>
+</p> *@
+
+<!-- Modal -->
+@* <div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="createModalLabel">Tạo tài khoản mới</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Form Create -->
+                <form asp-action="Create" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <!-- Account Fields -->
+                    <div class="form-group">
+                        <label class="control-label">Username</label>
+                        <input name="username" class="form-control" required />
+                        <span class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Password</label>
+                        <input name="password" class="form-control" type="password" required />
+                        <span class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Chức vụ</label>
+                        <select name="accountType" class="form-control">
+                            @foreach (var item in ViewBag.AccountTypes)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                        <span class="text-danger"></span>
+                    </div>
+
+                    <!-- User Info Fields -->
+                    <div class="form-group">
+                        <label class="control-label">Họ và tên</label>
+                        <input name="FullName" class="form-control" required />
+                        <span class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Ngày sinh</label>
+                        <input name="BirthDay" class="form-control" type="date" required />
+                        <span class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Giới tính</label>
+                        <select name="Sex" class="form-control">
+                            <option value="0">Nữ</option>
+                            <option value="1">Nam</option>
+                        </select>
+                        <span class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Email</label>
+                        <input name="Email" class="form-control" required />
+                        <span class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Số điện thoại</label>
+                        <input name="PhoneNumber" class="form-control" required />
+                        <span class="text-danger"></span>
+                    </div>
+
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                        <button type="submit" class="btn btn-primary">Tạo</button>
+                    </div>
+                    <!-- Nút submit -->
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div> *@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Số thứ tự</th>
+            <th>Họ và tên</th>
+            <th>Chức vụ</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (ds != null)
+        {
+            int i = 1;
+            foreach (var user in ds)
+            {
+                <tr>
+                    <td>@i</td> <!-- Hiển thị số thứ tự -->
+                    <td>@user.HT</td>
+                    <td>@user.AccountType</td>
+                    <td>
+                        @*  <a asp-action="Edit" asp-route-id="@user.UsID">Edit</a> | *@
+                        <a asp-action="Details" asp-route-id="@user.UsID">Details</a> |
+                        @* <a asp-action="Delete" asp-route-id="@user.UsID">Delete</a> *@
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal"
+                                data-id="@user.UsID" data-name="@user.HT" data-role="@user.AccountType">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+                i++;
+            }
+        }
+        </tr>
+    </tbody>
+</table>
+
+
+<!-- Delete Confirmation Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Xóa nhân sự</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p style="color: orangered">Xác nhận muốn xóa nhân sự này:</p>
+                <dl class="row">
+                    <dt class="col-sm-4">Họ và tên:</dt>
+                    <dd class="col-sm-8" id="deleteUserName"></dd>
+                    <dt class="col-sm-4">Chức vụ:</dt> 
+                    <dd class="col-sm-8" id="deleteUserRole"></dd>
+                </dl>
+                <form id="deleteForm" method="post">
+                    <input type="hidden" id="deleteUserId" name="UserInfoId" />
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                        <button type="submit" class="btn btn-danger">Xóa</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        $('#deleteModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var userId = button.data('id');
+            var userName = button.data('name');
+            var userRole = button.data('role');
+
+            var modal = $(this);
+            modal.find('#deleteUserId').val(userId);
+            modal.find('#deleteUserName').text(userName);
+            modal.find('#deleteUserRole').text(userRole == "Quản lý" ? "Quản lý" : "Nhân viên");
+
+            var actionUrl = '@Url.Action("Delete", "QLTK")/' + userId;
+            $('#deleteForm').attr('action', actionUrl);
+        });
+    </script>
+}

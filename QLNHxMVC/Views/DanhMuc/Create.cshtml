@@ -1,0 +1,61 @@
+﻿@model QLNHxMVC.Models.TbDmfood
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .create-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh; /* Chiều cao của trang */
+    }
+
+    .create-content {
+        max-width: 400px;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+
+        .create-content h1 {
+            margin-bottom: 20px;
+        }
+
+        .create-content .form-group {
+            margin-bottom: 15px;
+        }
+
+        .create-content .actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .create-content .actions a {
+                margin: 0 10px;
+            }
+</style>
+<div id="formDialog" class="create-container">
+    <div class="create-content">
+
+        <h2>Thêm mới thực đơn</h2>
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CategoryName" class="control-label">Tên món ăn</label>
+                <input asp-for="CategoryName" class="form-control" required/>
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+                <p></p>      
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+            </div>
+        </form>
+        <a asp-action="Index">Quay lại danh sách</a>
+    </div>
+</div>
